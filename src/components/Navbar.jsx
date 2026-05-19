@@ -21,10 +21,6 @@ function Navbar() {
             Ranking
           </a>
 
-          <button className="bg-red-500 hover:bg-red-600 transition px-5 py-2 rounded-lg font-medium">
-            Nova Mesa
-          </button>
-
         </nav>
 
       </div>
