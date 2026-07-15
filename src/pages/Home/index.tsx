@@ -1,3 +1,3 @@
 export default function Home() {
-  return <h1>ALLPOKER</h1>
+  return <p className="text-foreground">Bem-vindo ao ALLPOKER</p>
 }
