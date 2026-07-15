@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router'
 import { AppLayout } from '@/components/layout/AppLayout'
-import Home from '@/pages/Home'
+import Home, { SUBTITLE } from '@/pages/Home'
 
 export const router = createBrowserRouter([
   {
@@ -10,6 +10,7 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
+        handle: { subtitle: SUBTITLE },
       },
     ],
   },
